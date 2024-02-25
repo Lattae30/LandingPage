@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Asset/img/mejiwooFavicon.png" type="image/x-icon">
+    <title>Mjiwoo 1-6 Open</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- NAVIGATION BAR -->
+    <header>
+        <!-- TOP NAV -->
+        <section>
+            <nav>
+                <ul>
+                    <li><h5><a href="#">MEJIWOO</a></h5></li>
+                    <li class="li-hide"><a href="#">Login</a></li>
+                    <li><a href="#">Bag ( 0 )</i></a></li>
+                    <li class="li-hide"><a href="#">Search</a></li>
+                    <li onclick="showSidebar()"><i class="fa-solid fa-bars fa-lg" style="color: #2e2e2e;"></i></li>
+                </ul>
+            </nav>
+        </section>
+
+        <!-- SIDE NAV -->
+        <section>
+            <nav>
+                <ul class="mj-sidebar animate__animated animate__fadeIn animate__fast">
+                    <li onclick="hideSidebar()"><i class="fa-solid fa-xmark fa-xl" style="color: #2e2e2e;"></i></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Join +2,000</a></li>
+                    <li><a href="#">Bag(0)</a></li>
+                    <li><a href="#">Order</a></li>
+                    <li><a href="#">My Page</a></li>
+                    <li><h6>Shop</h6></li>
+                    <li class="sidebar-in-sec open-inline-sidebar">
+                        <a href="#">MADE ME</a>
+                        <ul class="inline-sidebar">
+                            <li><a href="#">OUTER</a></li>
+                            <li><a href="#">TOP</a></li>
+                            <li><a href="#">BOTTOM</a></li>
+                            <li><a href="#">DRESS</a></li>
+                            <li><a href="#">EASY WEAR</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">EARLY SPRING</a></li>
+                    <li><a href="#">BEST</a></li>
+                    <li><a href="#">1-6</a></li>
+                    <li class="open-inline-sidebar">
+                        <a href="#">OUTER</a>
+                        <ul class="inline-sidebar">
+                            <li><a href="#">COAT</a></li>
+                            <li><a href="#">JACKET</a></li>
+                            <li><a href="#">JUMPER</a></li>
+                            <li><a href="#">CARDIGAN</a></li>
+                        </ul>
+                    </li>
+                    <li class="open-inline-sidebar">
+                        <a href="#">TOP</a>
+                        <ul class="inline-sidebar">
+                            <li><a href="#">TEE</a></li>
+                            <li><a href="#">BLOUSE/SHIRT</a></li>
+                            <li><a href="#">KNIT</a></li>
+                            <li><a href="#">SLEEVELESS</a></li>
+                        </ul>
+                    </li>
+                    <li class="open-inline-sidebar">
+                        <a href="#">PANTS</a>
+                        <ul class="inline-sidebar">
+                            <li><a href="#">DENIM</a></li>
+                            <li><a href="#">SHORT</a></li>
+                            <li><a href="#">SLACKS</a></li>
+                            <li><a href="#">COTTON</a></li>
+                            <li><a href="#">TRAINING</a></li>
+                        </ul>
+                    </li>
+                    <li class="open-inline-sidebar">
+                        <a href="#">SKIRT</a>
+                        <ul class="inline-sidebar">
+                            <li><a href="#">MINI</a></li>
+                            <li><a href="#">MIDI</a></li>
+                            <li><a href="#">LONG</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">DRESS</a></li>
+                    <li class="open-inline-sidebar">
+                        <a href="#">SHOES & BAG</a>
+                        <ul class="inline-sidebar">
+                            <li><a href="#">SHOES</a></li>
+                            <li><a href="#">BAG</a></li>
+                        </ul>
+                    </li>
+                    <li class="open-inline-sidebar">
+                        <a href="#">ACC</a>
+                        <ul class="inline-sidebar">
+                            <li><a href="#">EARING</a></li>
+                            <li><a href="#">NECKLACE</a></li>
+                            <li><a href="#">RING</a></li>
+                            <li><a href="#">BRACELET</a></li>
+                            <li><a href="#">CAP</a></li>
+                            <li><a href="#">ETC</a></li>
+                            <li><a href="#">INNER-WEAR</a></li>
+                        </ul>
+                    </li>
+                    <li class="open-inline-sidebar">
+                        <a href="#">~40%</a>
+                        <ul class="inline-sidebar">
+                            <li><a href="#">40%</a></li>
+                            <li><a href="#">30%</a></li>
+                            <li><a href="#">20%</a></li>
+                        </ul>
+                    </li>
+                    <li><h6>Board</h6></li>
+                    <li class="sidebar-in-sec"><a href="#">MADE ME</a></li>
+                    <li><a href="#">NOTICE</a></li>
+                    <li><a href="#">Q&A</a></li>
+                    <li><a href="#">Warehouse schedule information</a></li>
+                    <li><a href="#">REVIEW</a></li>
+                    <li><h6><a href="#">Contact</a></h6></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <!-- MEJIWOO OPEN SALE VIDEO PROMOTION -->
+    <section class="mj-video-promotion">
+        <div class="row d-flex">
+            <div class="col">
+                <video src="Asset/video/landing_page_vid_4_3.mp4" autoplay muted loop></video>
+                <div class="mj-video-caption animate__animated animate__zoomIn animate__delay-2s">
+                    <p>Discover Our New Collection</p>
+                    <a href="#openSaleTag"><i class="fa-solid fa-chevron-down fa-bounce fa-4x" style="color: #2e2e2e;"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OPEN SALE TAG -->
+    <section id="openSaleTag" class="open-sale-tag">
+        <div class="row">
+            <div class="col">
+                <div class="mj-ellipse">
+                    <h5>Open Sale</h5>
+                </div>
+                <div class="open-sale-tag-schedule">
+                    <p>6.13 2PM - 6.14 2PM (5% OFF)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COLLECTION LIST -->
+    <section class="mj-collection-list">
+        <div class="row d-flex justify-content-center">
+            <div class="col-xxl-4 col-6 d-flex justify-content-center">
+                <div class="mj-col-img">
+                    <img src="Asset/img/Angel_flare_blouse/1.jpg" alt="" class="mj-img">
+                    <img src="Asset/img/Angel_flare_blouse/2.jpg" alt="" class="mj-img">
+                    <img src="Asset/img/Angel_flare_blouse/3.jpg" alt="" class="mj-img">
+                    <div class="mj-col-caption">
+                        <p>Angle Flare Blouse</p>
+                        <p><s>KRW 58,000</s></p>
+                        <p>KRW 55,100</p>
+                        <div class="mj-ellipse-col-lable">
+                            <p>5% OFF</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-4 col-6 d-flex justify-content-center">
+                <div class="mj-col-img">
+                    <img src="Asset/img/Slow_stripe_shirt/1.jpg" alt="" class="mj-img">
+                    <img src="Asset/img/Slow_stripe_shirt/2.jpg" alt="" class="mj-img">
+                    <img src="Asset/img/Slow_stripe_shirt/3.jpg" alt="" class="mj-img">
+                    <div class="mj-col-caption">
+                        <p>Slow Stripe Shirt</p>
+                        <p><s>KRW 48,000</s></p>
+                        <p>KRW 45,100</p>
+                        <div class="mj-ellipse-col-lable">
+                            <p>5% OFF</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-4 col-6 d-flex justify-content-center">
+                <div class="mj-col-img">
+                    <img src="Asset/img/Bell_cancan_over_blouse/1.jpg" alt="" class="mj-img">
+                    <img src="Asset/img/Bell_cancan_over_blouse/2.jpg" alt="" class="mj-img">
+                    <img src="Asset/img/Bell_cancan_over_blouse/3.jpg" alt="" class="mj-img">
+                    <div class="mj-col-caption">
+                        <p>Belle Cancan Over Blouse</p>
+                        <p><s>KRW 42,000</s></p>
+                        <p>KRW 39,900</p>
+                        <div class="mj-ellipse-col-lable">
+                            <p>5% OFF</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-4 col-6 d-flex justify-content-center">
+                <div class="mj-col-img">
+                    <img src="Asset/img/Move_denim_top_&_coco_pleats_denim_skirt/1.jpg" alt="" class="mj-img">
+                    <img src="Asset/img/Move_denim_top_&_coco_pleats_denim_skirt/2.jpg" alt="" class="mj-img">
+                    <img src="Asset/img/Move_denim_top_&_coco_pleats_denim_skirt/3.jpg" alt="" class="mj-img">
+                    <div class="mj-col-caption">
+                        <p>Move Denim Top & Coco Pleats Denim Skirt</p>
+                        <p><s>KRW 96,000</s></p>
+                        <p>KRW 86,400</p>
+                        <div class="mj-ellipse-col-lable">
+                            <p>5% OFF</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-4 col-6 d-flex justify-content-center">
+                <div class="mj-col-img">
+                    <img src="Asset/img/Potter_loose_overoll_denim_shorts/1.jpg" alt="" class="mj-img">
+                    <img src="Asset/img/Potter_loose_overoll_denim_shorts/2.jpg" alt="" class="mj-img">
+                    <img src="Asset/img/Potter_loose_overoll_denim_shorts/3.jpg" alt="" class="mj-img">
+                    <div class="mj-col-caption">
+                        <p>Porter Loose Overoll Denim Shorts</p>
+                        <p><s>KRW 48,000</s></p>
+                        <p>KRW 45,100</p>
+                        <div class="mj-ellipse-col-lable">
+                            <p>5% OFF</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="mj-footer">
+            <div class="row">
+                <div class="col-xxl-2">
+                    <h6><a href="#">MEJIWOO</a></h6>
+                </div>
+                <div class="col-xxl-10 mj-footer-content">
+                    <p><b>Company. AJ Look</b> Co., Ltd.Owner Jiwoo Jeong</p>
+                    <p><b>Tel. 070-8801-7280</b> | MON-FRI AM 10:00 = PM 5:00 | LUNCH TIME PM 12:00 - PM 1:00 | WEEKEND, HOLIDAY OFF</p>
+                    <p><b>Address.</b> 04794 6th, 7th floor, 39 Seongsuil-ro 8-gil, Seongdong-gu, Seoul (Seongsu-dong 2-ga)</p>
+                    <p><b>Account.</b> KB 609501-04-010205 AJ Look Co., Ltd.</p>
+                    <p>Info more <i onclick="showInfo()" class="fa-solid fa-caret-down" style="color: #333333;"></i></p>
+                    <div class="mj-hidden-footer-content">
+                        <p>Business license. 362-87-01548</p>
+                        <p>Online order license. 2020-Seoul Seongdong-02908 &ensp;<a href="#">[Check business information]</a></p>
+                        <p>Chief privacy officer. Jeong Ji-woo &ensp; E-mail: <a href="mailto:ajlook@naver.com">ajlook@naver.com</a> &ensp;Hosting by Cafe24 Co., Ltd.</p>
+                    </div>
+                    <div class="social-media mt-4">
+                        <p><a target="_blank" href="https://www.instagram.com/mejiwoo__official/" class="fa-brands fa-instagram fa-2xl social-media-link" style="color: #333333;"></a></p>
+                        <p><a target="_blank" href="https://www.youtube.com/c/%EB%AF%B8%EC%A7%80%EC%9A%B0MEJIWOO/featured" class="fa-brands fa-youtube fa-2xl social-media-link" style="color: #333333;"></a></p>
+                        <p><a href="#" class="fa-solid fa-truck fa-2xl social-media-link" style="color: #333333;"></a></p>
+                    </div>
+                    <div class="social-media">
+                        <p><a href="#" class="social-media-link">About</a></p>
+                        <p><a href="#" class="social-media-link">Agreement</a></p>
+                        <p><a href="#" class="social-media-link"><b>Privacy Policy</b></a></p>
+                        <p><a href="#" class="social-media-link">Guide</a></p>
+                    </div>
+                    <p class="mt-3">copyright &copy; AJ Look Co., Ltd. all rights reserved.design by daydesign.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f896c86d96.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
