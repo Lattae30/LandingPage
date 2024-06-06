@@ -1,4 +1,4 @@
-##Recreating a responsive Landing Page of one of the Korean Fashion Brand named Mejiwoo using HTML, CSS, and JavaScript.
+## Recreating a responsive Landing Page of one of the Korean Fashion Brand named Mejiwoo using HTML, CSS, and JavaScript.
 
 # Website View
 https://github.com/Lattae30/LandingPage/assets/107414679/2568f2cd-0b28-4fb7-9f36-1398d681825c
